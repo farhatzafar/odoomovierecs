@@ -1,6 +1,6 @@
 from odoo import fields, models
 
-class Movie(models.model):
+class Movie(models.Model):
 
     _name = "movie_recs.movie"
     _description= "Stores info about movies"

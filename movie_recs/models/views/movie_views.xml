@@ -1,0 +1,12 @@
+<odoo>
+    <record id="movie_list_view" model="ir.ui.view">
+        <field name="name">movie.list.view</field>
+        <field name="model">movie_recs.movie</field>
+        <field name="arch" type="xml">
+            <field name="title"/>
+            <field name="genre"/>
+            <field name="release_year"/>
+            <field name="lead_actor_gender"/>
+            <field name="poster_url"/>
+        </field>
+</odoo>
