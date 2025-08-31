@@ -1,0 +1,22 @@
+<odoo>
+    <!--List view for movie model-->
+    <record id="movie_list_view" model="ir.ui.view">
+        <field name="name">movie.list.view</field>
+        <field name="model">movie_recs.movie</field>
+        <field name="arch" type="xml">
+            <list string="Movies">
+                <field name="title"/>
+                <field name="genre"/>
+                <field name="release_year"/>
+                <field name="lead_actor_gender"/>
+                <field name="poster_url"/>
+            </list>
+        </field>
+    </record>
+    <!--Action for movie model-->
+    <record id="display_all_movies_action" model="ir.actions.act_window">
+        <field name="name">View All Movies</field>
+        <field name="res_model">movie_recs.movie</field>
+        <field name="view_mode">list</field>
+    </record>
+</odoo>

@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem id="movie_menu_root" name="Movie Recommendations">
+        <menuitem id="movie_top_menu" name="Movies">
+            <menuitem id="all_movies_action" action="display_all_movies_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
