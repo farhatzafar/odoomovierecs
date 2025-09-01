@@ -20,18 +20,18 @@
         <field name="arch" type="xml">
             <form string="Movie">
                 <sheet>
-                <group>
-                    <div>
-                        <header><h3><field name="title"/></h3></header>
-                    </div>
-                </group>
                     <group>
-                        <field name="genre"/>
-                        <field name="release_year"/>
+                        <h1><field name="title"/></h1>
                     </group>
                     <group>
-                        <field name="lead_actor_gender"/>
-                        <field name="poster_url"/>
+                        <group>
+                            <field name="genre"/>
+                            <field name="release_year"/>
+                        </group>
+                        <group>
+                            <field name="lead_actor_gender"/>
+                            <field name="poster_url"/>
+                        </group>
                     </group>
                 </sheet>
             </form>
