@@ -77,6 +77,19 @@
             </kanban>
         </field>
     </record>
+    <!--Search view for movie model-->
+    <record id="movie_search_view" model="ir.ui.view">
+        <field name="name">movie.search.view</field>
+        <field name="model">movie_recs.movie</field>
+        <field name="arch" type="xml">
+            <search string="Search movies...">
+                <field name="title"/>
+                <field name="genre"/>
+                <field name="release_year"/>
+                <field name="lead_actor_gender"/>
+            </search>
+        </field>
+    </record>
     <!--Action for movie model-->
     <record id="display_all_movies_action" model="ir.actions.act_window">
         <field name="name">View All Movies</field>
