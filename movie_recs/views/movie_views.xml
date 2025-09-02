@@ -87,6 +87,7 @@
                 <field name="genre"/>
                 <field name="release_year"/>
                 <field name="lead_actor_gender"/>
+                <filter name="group_by_release_year" string="Release Year" context="{'group_by': 'release_year'}"/>
             </search>
         </field>
     </record>
