@@ -90,6 +90,7 @@
                 <filter name="group_by_release_year" string="Release Year" context="{'group_by': 'release_year'}"/>
                 <filter name="female_horror" string="Women Led Horror" domain="['&amp;',('genre','=','horror'), ('lead_actor_gender','=','female')]"/>
                 <filter name="male_comedy" string="Men Led Comedy" domain="['&amp;',('genre','=','comedy'), ('lead_actor_gender','=','male')]"/>
+                <filter name="2024_drama" string="2024 Drama" domain="['&amp;',('genre','=','drama'), ('release_year','=','2024')]"/>
             </search>
         </field>
     </record>
