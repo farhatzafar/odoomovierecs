@@ -88,6 +88,8 @@
                 <field name="release_year"/>
                 <field name="lead_actor_gender"/>
                 <filter name="group_by_release_year" string="Release Year" context="{'group_by': 'release_year'}"/>
+                <filter name="female_horror" string="Women Led Horror" domain="['&amp;',('genre','=','horror'), ('lead_actor_gender','=','female')]"/>
+
             </search>
         </field>
     </record>
